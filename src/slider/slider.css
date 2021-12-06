@@ -1,0 +1,66 @@
+*{
+    size:1cm;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+.carousel .slide{
+    background-color:rgb(0, 0, 0);
+    
+    height: 70vh;
+    
+}
+.control-arrow.control-pre{
+    size: 20cm;
+}
+.carousel button.control-arrow .control-next{
+    size: 2cm;
+    color: yellow;
+}
+.carousel .slide img{
+    max-height: 100%;
+    width: 80%;
+}
+.image{
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    animation-duration: 0.5s;
+}
+
+@media only screen and (max-width: 1200px){
+    .carousel{
+        height: 90vh;
+    }
+}
+ 
+    @media only screen and (max-width:900px){
+        .carousel{
+            height: 80vh;
+        }
+    }
+        
+
+        @media only screen and (max-width: 750px){
+            .carousel{
+                height: 70vh;
+            }
+        }
+            
+        @media only screen and (max-width: 650px){
+                .carousel{
+                    height: 60vh;
+                }
+            
+        }    
+         @media only screen and (max-width: 500px){
+                .carousel{
+                    height: 50vh;
+                }
+            
+                
+            }

@@ -1,0 +1,62 @@
+.background {
+    background-color: #f5f5f5;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .ImageSlider {
+    display: flex;
+    background: rgba(0, 151, 19, 0.01);
+    padding: 10vh;
+    margin-top: 5vh;
+    margin-left: 1vw;
+  }
+  .Head1 {
+    display: block;
+    margin-left: vw;
+    width: 10px;
+    margin-top: 12vh;
+    word-break: break-all;
+  }
+  .About {
+    margin-left: 5vw;
+    margin-top: -19.5vh;
+  }
+  .Head2 {
+    margin-left: -0.5vw;
+    margin-top: 35vh;
+    width: 10px;
+    word-break: break-all;
+  }
+  .Events {
+    margin-left: -12.2vw;
+    margin-top: 2vh;
+  }
+  .Head3 {
+    margin-left: -0.5vw;
+    margin-top: 60vh;
+    width: 10px;
+    word-break: break-all;
+  }
+  .Achv {
+    margin-left: -12.45vw;
+    margin-top: 23.5vh;
+  }
+  .ImageSlidermob {
+    padding: 10vh;
+  }
+  
+  .Aboutmob {
+    margin-left: -100vw;
+    margin-top: 60vh;
+  }
+  
+  .Eventsmob {
+    margin-left: -65vw;
+    margin-top: 60vh;
+  }
+  
+  .Achvmob {
+    margin-left: -30vw;
+    margin-top: 60vh;
+  }

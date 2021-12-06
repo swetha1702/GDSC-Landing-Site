@@ -7,12 +7,13 @@ import { InfoSection } from 'C:/Users/HP/gdsc-landing-site/src/components/InfoSe
 function Achievements() {
   return (
     <>
-       <YoutubeEmbed embedId="2PnmLF9YQRI" />
+       
       <InfoSection {...AboutObjOne} />
       <InfoSection {...AboutObjTwo} />
       <InfoSection {...AboutObjThree} />
       <InfoSection {...AboutObjFour} />
       <InfoSection {...AboutObjFive} />
+      <YoutubeEmbed embedId="2PnmLF9YQRI" />
     </>
   );
 }

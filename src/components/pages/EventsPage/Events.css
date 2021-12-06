@@ -1,0 +1,44 @@
+h1{
+    color: rgb(255, 255, 255);
+    height: 100px;
+    justify-content: center;
+    padding-top: 2.5%;
+    align-items: center;
+    font-size: 1.7rem;
+    top: 0;
+    font-family: monospace;
+    font-weight:normal;
+    background-color:rgb(0, 0, 0);
+    
+    
+  }
+ h1{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+  .past2{
+    
+    padding-left: 50px;
+    padding-top: 30px;
+    background-color: white;
+  }
+
+  th, td {
+    padding: 15px;
+    
+  }
+  tr:nth-child(odd) {
+    background-color: #000000 ;
+  }
+  
+  
+  .thumbnail-slider-wrap {
+    margin-top: 15px;
+    height: 85px;
+  }
+  .thumbnail-slider-wrap .slick-track .slick-slide {
+    text-align: center;
+  }
+  .thumbnail-slider-wrap .slick-track .slick-slide img {
+    width: 70%;
+  }

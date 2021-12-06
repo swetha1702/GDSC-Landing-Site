@@ -16,7 +16,7 @@ export const InfoSection = ({primary,lightBg,imgStart,lightTopLine,lightTextDesc
                               <Link to="/">
                                   <Button big fontBig primary={primary}>{buttonLabel}</Button>
                               </Link>
-
+                             
                           </TextWrapper>
                       </InfoColumn>
                       <InfoColumn>
